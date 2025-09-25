@@ -1,0 +1,39 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+
+# User-specific files
+.Ruserdata
+
+# RStudio files
+.Rproj.user/
+
+# VS Code/Positron files
+.vscode/
+*.code-workspace
+
+# Build and package files
+.Rproj
+.DS_Store
+*.tar.gz
+*.zip
+
+# Documentation and cache
+man/*.Rd
+*.html
+*.pdf
+*.png
+*.svg
+
+# Compiled objects
+*.o
+*.so
+*.dll
+*.exe
+
+# Test and coverage
+coverage/
+tests/testthat/test-*.Rout

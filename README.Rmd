@@ -1,0 +1,63 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# hsluv
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of hsluv is to ...
+
+## Installation
+
+You can install the development version of hsluv like so:
+
+``` r
+# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(hsluv)
+## basic example code
+```
+
+What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+
+```{r cars}
+summary(cars)
+```
+
+You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.
+
+You can also embed plots, for example:
+
+```{r pressure, echo = FALSE}
+plot(pressure)
+```
+
+In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
+
+## Credit
+
+This project includes the [C implementation of HSluv](https://github.com/hsluv/hsluv-c), by Martin Mitáš, licensed under the MIT license:
+
+Copyright © 2015 Alexei Boronine (original idea, JavaScript implementation)  
+Copyright © 2015 Roger Tallada (Obj-C implementation)  
+Copyright © 2017 Martin Mitáš (C implementation, based on Obj-C implementation)  
+

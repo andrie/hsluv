@@ -1,0 +1,4 @@
+scripts
+^LICENSE\.md$
+^README\.Rmd$
+src/LICENSE.md
